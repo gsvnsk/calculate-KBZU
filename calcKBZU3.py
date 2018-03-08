@@ -99,7 +99,7 @@ proteindaykoeff=     [[0.30,      0.35,   0.35,\
 #
 
 ###iDietDay Тип диеты по дням недели ( Пн ... Вс,Пн)###
-iDietDay = [1, 0, 1, 0, 1, 1, 2, 1]
+iDietDay = [1, 0, 1, 0, 1, 1, 2, 1, 0]
 iDiet=iDietDay[datetime.weekday(date.today())]
 
 # iDiet=0
